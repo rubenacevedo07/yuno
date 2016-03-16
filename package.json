@@ -1,7 +1,10 @@
 {
   "name": "bestudio",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.13.4",
+    "gzippo": "^0.2.0"
+  },
   "repository": {},
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -37,7 +40,6 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "karma start test\\karma.conf.js",
-	"start": "node server.js"
+    "test": "karma start test\\karma.conf.js"
   }
 }
