@@ -37,6 +37,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "karma start test\\karma.conf.js"
+    "test": "karma start test\\karma.conf.js",
+	"start": "node server.js"
   }
 }
